@@ -62,11 +62,6 @@ const EPKSection = () => {
                   bunn til topp – med bars som bygger opp en ny generasjon.
                 </p>
                 
-                <div className="mt-6 p-4 bg-secondary/20 rounded-lg border-l-4 border-primary">
-                  <p className="text-foreground font-medium italic text-lg">
-                    "Han gikk gjennom det samme som meg."
-                  </p>
-                </div>
               </CardContent>
             </Card>
           </div>
@@ -106,10 +101,6 @@ const EPKSection = () => {
                     <Badge variant="outline">Ute nå</Badge>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-foreground">Fans synger med</span>
-                    <Badge variant="secondary">Organisk vekst</Badge>
-                  </div>
-                  <div className="flex items-center justify-between">
                     <span className="text-foreground">Hall of Fame ambisjon</span>
                     <Badge className="bg-primary text-primary-foreground">Fremtid</Badge>
                   </div>
@@ -117,24 +108,6 @@ const EPKSection = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-card/50 backdrop-blur-sm border-border/50">
-              <CardHeader>
-                <CardTitle className="text-2xl font-display text-primary">
-                  Samarbeid
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground leading-relaxed mb-4">
-                  Åpen for features og kreative samarbeid, både nasjonalt og internasjonalt.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">Yasin</Badge>
-                  <Badge variant="outline">Asme</Badge>
-                  <Badge variant="outline">Norske artister</Badge>
-                  <Badge variant="outline">Internasjonale features</Badge>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>

@@ -6,6 +6,8 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Camera, Play, Download, X } from 'lucide-react';
 import pressPhoto1 from '@/assets/press-photo-1.jpg';
 import livePhoto1 from '@/assets/live-photo-1.jpg';
+import livePhoto2 from '@/assets/live-photo-2.jpg';
+import livePhoto3 from '@/assets/live-photo-3.jpg';
 import studioPhoto1 from '@/assets/studio-photo-1.jpg';
 
 interface MediaItem {
@@ -37,12 +39,30 @@ const GallerySection = () => {
       type: 'photo',
       src: livePhoto1,
       thumbnail: livePhoto1,
+      title: 'Live Performance - Blue Stage',
+      category: 'live',
+      description: 'Live performance with energetic crowd'
+    },
+    {
+      id: '3',
+      type: 'photo',
+      src: livePhoto2,
+      thumbnail: livePhoto2,
       title: 'Live at SALT - Utsolgt Show',
       category: 'live',
       description: '500+ publikum, moshpit og encore'
     },
     {
-      id: '3',
+      id: '4',
+      type: 'photo',
+      src: livePhoto3,
+      thumbnail: livePhoto3,
+      title: 'Live Performance - Purple Lights',
+      category: 'live',
+      description: 'Intimate performance with dramatic lighting'
+    },
+    {
+      id: '5',
       type: 'photo',
       src: studioPhoto1,
       thumbnail: studioPhoto1,
