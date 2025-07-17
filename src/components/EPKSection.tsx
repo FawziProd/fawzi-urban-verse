@@ -77,8 +77,7 @@ const EPKSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed">
-                  Å løfte nivået i norsk rap. Å gjøre teknikk og innhold kult igjen. 
-                  Og å gi lytterne følelsen av at "han gikk gjennom det samme som meg."
+                  Å løfte nivået i norsk rap. Å gjøre teknikk og innhold kult igjen.
                 </p>
               </CardContent>
             </Card>

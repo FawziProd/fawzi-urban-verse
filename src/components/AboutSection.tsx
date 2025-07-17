@@ -15,18 +15,6 @@ const AboutSection = () => {
         </div>
 
         <div className="max-w-4xl mx-auto space-y-12">
-          {/* Featured Quote */}
-          <Card className="bg-gradient-accent text-white border-0 shadow-glow">
-            <CardContent className="p-12 text-center">
-              <Quote className="h-12 w-12 mx-auto mb-6 opacity-80" />
-              <blockquote className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold leading-tight">
-                "Han gikk gjennom det samme som meg."
-              </blockquote>
-              <p className="mt-6 text-lg opacity-90">
-                Dette er hva Emil ønsker at lytterne skal føle når de hører musikken hans.
-              </p>
-            </CardContent>
-          </Card>
 
           {/* Personal Story */}
           <div className="grid md:grid-cols-2 gap-8">

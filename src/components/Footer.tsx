@@ -119,12 +119,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Signature Quote */}
-        <div className="mt-8 text-center">
-          <p className="text-muted-foreground/60 text-sm italic">
-            "Han gikk gjennom det samme som meg."
-          </p>
-        </div>
       </div>
     </footer>
   );
